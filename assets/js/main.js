@@ -1,5 +1,5 @@
 var pictures=document.getElementById('pictures');
-var grande=document.createElement('grande');
+
 for (var i = 1; i < 10; i++) {
   var div=document.createElement('div');
   div.classList.add('box');
@@ -45,7 +45,9 @@ function creaModal(e){
 
   content.appendChild(img);
   content.appendChild(close);
-  content.appendChild(next);
+  if(hermano){
+    content.appendChild(next);
+  }
   div.appendChild(content);
   padre.appendChild(div);
 }
