@@ -114,21 +114,23 @@ header{
   background-color: transparent;
   border: none;
   color:#00F0B5;
-  font-weight: bold;
-  font-size: 21px;
   cursor: pointer;
 }
 .close{
-  top: 50px;
-  right: 120px;
+  top: 10%;
+  right: 15%;
 }
 .next{
   top: 50%;
-  right: 100px;
+  right: 12%;
 }
 .before{
   top: 50%;
-  left: 100px;
+  left: 12%;
+}
+
+.content button:hover{
+  color: skyblue;
 }
 .close:hover{
   transform: scale(1.1);

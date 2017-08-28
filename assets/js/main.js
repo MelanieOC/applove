@@ -41,9 +41,9 @@ function creaModal(e){
     creaModal(e);
   }
   img.src=e.src;
-  close.innerHTML='X';
-  next.innerHTML='>';
-  before.innerHTML='<';
+  close.innerHTML='<i class="fa fa-times fa-2x"></i>';
+  next.innerHTML='<i class="fa fa-chevron-circle-right fa-2x"></i>';
+  before.innerHTML='<i class="fa fa-chevron-circle-left fa-2x"></i>';
   div.setAttribute("class",'modal');
   content.setAttribute("class",'content');
   close.setAttribute("class",'close');
